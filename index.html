@@ -1,73 +1,85 @@
-<!doctype html> <!-- it shows html's version -->
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<!doctype html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Oğuz Kağan's Personel Website</title> <!-- Segmede cıkan yazı -->
+    <title>Oğuz Kağan's Personel Website</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="favicon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-<table cellspacing="20">
-    <td>
-        <img src="images/oguz_kagan-modified.png" alt="oğuz kağan bilici profile picture"> <!-- if browser cant render src, it look "alt" link -->
-    </td>
-    <td>
-        <h1> Oğuz Kağan Bilici </h1>
-        <p><em>Mechatronic Engineer, <strong>Turk Telekom </strong></em></p>
-        <p>I am mechatronic engineer. I like to make research control, machine Learning, artifilical intelligent and communication system.
-        </p>
-    </td>
-</table>
+    <div class="top">
+        <img class="top-cloud" src="images/cloud.png">
+        <h1 class="intro"><em>I'm Oguz Kagan.</em></h1>
+        <h2>fulltime an engineer,part-time a programmer.</h2>
+        <img class="bottom-cloud" src="images/cloud.png">
+        <img class="robot" src="images/robot.png">
+    </div>
 
-<hr size="3" noshade>
+    <div class="middle">
+        <div clas="profile">
+            <img src="images/oguz_kagan.png" alt="">
+            <h2>Hello.</h2>
+            <p>Welcome to my personel web page.</p>
+            <p class="introduction">I make researches about control systems, machine learning and communications systems.</p>
+        </div>
+        <hr>
+        <div class="skills">
+            <h2>My Skills.</h2>
+            <table>
+                <thead>
+                <th>Programming Languages</th>
+                <th>Drawing Programmes</th>
+                </thead>
+                <tbody>
+                <td>
+                    <div class="skill-row">
+                    <img class="skills" src="images/c++.png" alt="">
+                    <h3>C/C++</h3>
+                    <p class="skillstext">C language in embedded systems, image processing with C++ are my main research topics</p>
+                    <p class="skillstext">I have maden a lot of project and wrote codes from first year of universities. You can see some of them in <strong>project</strong>.</p>
+                    <img class="skills" src="images/python.png" alt="">
+                    <h3>Python</h3>
+                    <p class="skillstext">Python is really fun for me. I love coding with Python and learning new things.</p>
+                    <p class="skillstext">I'm trying to improve myself in data visualization, machine learning algorithms, image processing using by Python.</p>
+                    <p class="skillstext">You can find my all codes in my <strong>GitHub</strong> page.
+                    <img class="skills" src="images/matlab.png" alt="">
+                    <h3>Matlab-Simulink</h3>
+                    <p class="skillstext">As you know, Matlab is very powerful and useful program if you working on hard math problems or system modelling.</p>
+                    <p class="skillstext">Also, I used simulink for modelling a segway which is my thesis. </p>
+                    </div>
+                </td>
+                <td>
+                    <div class="skill-row">
+                    <img class="skills" src="images/solidworks.png" alt="">
+                    <h3>solidworks</h3>
+                    <p>I can use Solidworks very well.2D, 3D part design, assembly and a bit simulation. </p>
+                    <img class="skills" src="images/catia.png" alt="">
+                    <h3>Catia V5</h3>
+                    <p class="skillstext">When i was in internship,they were using Catia for part design.</p>
+                    <p class="skillstext">I learned Catia V5 a bit in there. Later, i bought courses from internet and improved myself</p>
+                </td>
+                </tbody>
+            </table>
 
-<h3>Education</h3>
-<ul>
-    <li>2021, Msc, Mechatronic Engineering, Necmettin Erbakan University</li>
-    <li>2015-2020, Bsc, Mechatronic Engineering, Necmettin Erbakan University</li>
-</ul>
+        </div>
+        <hr>
+        <div class="contact-me">
+            <h2>Get In Touch</h2>
+            <h3 class = "contactme">Do you working on same topics?</h3>
+            <p>If you have any questions, ideas or offers, don't hesitate to text me.</p>
+            <p>I will reply your emails as soon as possible.</p>
+            <a class="btn" href="mailto:oguzkaganbilici1@gmail.com">Contact Me</a>
+        </div>
+    </div>
 
-<hr size="3" noshade>
-
-<h3>Work Experiences</h3>
-<ul>
-    <li>2021- Access Engineer, Turk Telekom</li>
-    <li>2018-2018, Internship, Nurol Makina</li>
-</ul>
-
-<hr size="3" noshade>
-
-
-<h3>Skills</h3>
-<table border="1" cellspacing="10">
-    <thead>
-    <td>Programming Languages</td>
-    <td>Drawing Programs</td>
-    </thead>
-    <td>
-        <p>Python ⭐⭐⭐⭐</p>
-        <p>C++ ⭐⭐⭐⭐</p>
-        <p>Matlab ⭐⭐⭐⭐</p>
-    </td>
-    <td>
-        <p>Solidworks ⭐⭐⭐⭐</p>
-        <p>Catia V5 ⭐⭐</p>
-    </td>
-
-</table>
-
-<hr size="3" noshade>
-
-<h3>Hobbies</h3>
-<ol>
-    <li>fpv drones, if you want to look up my videos, you can visit my <strong><a href="https://www.youtube.com/channel/UC_Q_gnhPb0y950xnJfJXC0Q">YouTube</a></strong> page.</li>
-    <li>read book</li>
-    <li>trekking</li>
-</ol>
-
-<hr size="3" noshade>
-<h3><a href="contact-me.html">Contact Me</a></h3>
-<hr size="3" noshade>
-
-<h3>Researches</h3>
-<p><a href="researches.html"><strong>Researches</strong></a> </p>
+    <div class="bottom">
+        <a class="footer-link" href="https://www.linkedin.com/in/o%C4%9Fuz-ka%C4%9Fan-bilici/">LinkedIn</a>
+        <a class="footer-link" href="https://twitter.com/oguzkaganbilici">Twitter</a>
+        <a class="footer-link" href="https://github.com/khanoguz">GitHub</a>
+        <p class="copyright">© 2022 Oğuz Kağan Bilici.</p>
+    </div>
 </body>
 </html>
